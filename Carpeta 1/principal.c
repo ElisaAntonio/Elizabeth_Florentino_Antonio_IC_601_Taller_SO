@@ -49,8 +49,8 @@ else
 	    }
     }
  Ordenar(contenido);
-	fclose(archInicial); //Cerramos el archivo ide entrada
-	archFinal = fopen(argv[2],"w");  //abrimos el archivo de salida
+	fclose(archInicial); //Cerramos el archivo de entrada
+	archFinal = fopen(argv[2],"w");  //abrimos el archivo de salida con w
   	printf("-->>Archivo nuevo : %s\n",argv[2]);
   	for(int i=0; i<=c; i++)
   	 {
@@ -60,6 +60,6 @@ else
       		fprintf(archFinal,"%s\n",temporal); //escribe una salida con formato en el archivo.
           }
   	 }
-  	printf("Archivo \"%s\" escrito de manera correcta\n",argv[2]);
-  	fclose(archivoS);	
+  	printf("----Archivo: \"%s\" escrito correctamente\n",argv[2]);
+  	fclose(archFinal);//cerramos el archivo de salida
 }
