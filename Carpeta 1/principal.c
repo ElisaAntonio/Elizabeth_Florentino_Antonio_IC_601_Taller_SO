@@ -31,7 +31,6 @@ else
    {
 	 printf("\nEl archivo: %s aún no existe", *NArchInicial);
    }
-
 	archInicial = soloLectura(*NArchInicial);
 	if(archInicial == NULL)
 	{
@@ -50,7 +49,6 @@ else
 	   memset(temporal,0,50);  //copiamos los caracteres 
 	    }
     }
-
  Ordenar(contenido);
 	fclose(archInicial); //Cerramos el archivo ide entrada
 	archFinal = fopen(argv[2],"w");  //abrimos el archivo de salida
@@ -66,7 +64,3 @@ else
   	printf("Archivo \"%s\" escrito de manera correcta\n",argv[2]);
   	fclose(archivoS);	
 }
-
-
-
-
