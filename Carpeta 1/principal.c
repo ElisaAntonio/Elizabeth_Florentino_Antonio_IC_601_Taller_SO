@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 #include "metodos.h"
 #include "ordenar.h"
-
 int main (int argc, char *argv[])
 {
-
   int ExistenciaArchivo=0;  
   int total = 0;   //inicializamos el total de las palabras 
   FILE *archInicial = NULL;  //primer apuntador al archivo a modificar
@@ -15,18 +12,15 @@ int main (int argc, char *argv[])
   char temporal[100];  //definimos una variable temporal y declaramos el tamaño del string en el cual se va a almacenar lo que se leyó en el fichero
   contador *contenido = lista(contenido);   
   *NArchInicial = argv[1]; //declaramos al nombre del archivo como argumento inicial
-  existeArchivo = ExistenciaArchivo (*NArchInicial); //
-
+  existeArchivo = ExistenciaArchivo (*NArchInicial); 
   //ciclo for para imprimir los argumentos que fueron ingresados
 {
-	
 	for (int i = 0; i<argc ; i++)
 	{
 	printf ("Argumento %d--> [%s] \n", i, argv[i]);
 	}
 	return 0;
 }
-
 
 //comprobamos que el archivo no exista, para poder crearlo
 if (existeArchivo)
@@ -72,9 +66,6 @@ else
   	printf("Archivo \"%s\" escrito de manera correcta\n",argv[2]);
   	fclose(archivoS);	
 }
-
-
-
 
 
 
