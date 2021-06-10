@@ -21,7 +21,6 @@ int main (int argc, char *argv[])
 	}
 	return 0;
 }
-
 //comprobamos que el archivo no exista, para poder crearlo
 if (existeArchivo)
    {
