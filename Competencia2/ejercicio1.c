@@ -19,3 +19,4 @@ y=20;  //inicializamos a y con 20
 p=&y;  //Asignamos la direccion de memoria de y a p
 printf("El contenido de P es: %i\n", *p); //imprimimos el contenido de p
 }
+HOLAAAA
