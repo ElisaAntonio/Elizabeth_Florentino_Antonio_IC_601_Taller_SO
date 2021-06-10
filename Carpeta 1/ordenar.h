@@ -1,7 +1,7 @@
 #ifndef __ORDENAR_H
 #define __ORDENAR_H
 
-contadorElementos *listcar(contadorElementos *CANTIDADELEM)
+contadorElementos *listarCARACTERES(contadorElementos *CANTIDADELEM)
 {
   CANTIDADELEM = NULL;
   return CANTIDADELEM;
