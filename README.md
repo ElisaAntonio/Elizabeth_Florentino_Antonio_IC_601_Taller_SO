@@ -1,0 +1,2 @@
+# Elizabeth_Florentino_Antonio_IC_601_Taller_SO
+Sistemas Operativos
