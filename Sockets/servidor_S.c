@@ -154,12 +154,8 @@ int main(int argc, char const *argv[])
 	else
 		printf("-->CLIENTE ACEPTADO CORRECTAMENTE\n");
 
-
-
 	printf("-------------CONECTADO AL SERVIDOR------------------\n");
 
-	func(connfd);
+	fD_funcion(connfd); //mandamos a llamar a la función del file descriptor
 	close(sockfd);  //CERRAR CLIENTE
-
-
 }
