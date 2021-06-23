@@ -157,5 +157,5 @@ int main(int argc, char const *argv[])
 	printf("-------------CONECTADO AL SERVIDOR------------------\n");
 
 	fD_funcion(connfd); //mandamos a llamar a la función del file descriptor
-	close(sockfd);  //CERRAR CLIENTE
+	close(sockfd);  //CERRAR SOCKET
 }
